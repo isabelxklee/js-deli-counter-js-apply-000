@@ -21,14 +21,15 @@ function currentLine(katzDeliLine) {
   }
 }
 
+let arr = [];
+
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
-      for (let i = 0; i < katzDeliLine.length; i++) {
-        let number = i + 1;
-        let line = number + ". " + katzDeliLine.join(", ") + katzDeliLine[i];
+  for (let i = 0; i < katzDeliLine.length; i++) {
+    arr.push(i + 1 + ". " + katzDeliLine[i]);
       }
-    return "The line is currently: " + line;
-  } else {
-    return "The line is currently empty.";
+        return "The line is currently: " + arr;
+        } else {
+          return "The line is currently empty.";
   }
 }
