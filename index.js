@@ -22,7 +22,6 @@ function currentLine(katzDeliLine) {
 }
 
 let arr = [];
-
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
   for (let i = 0; i < katzDeliLine.length; i++) {
