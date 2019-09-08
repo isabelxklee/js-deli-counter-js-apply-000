@@ -22,6 +22,7 @@ function currentLine(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
+  let i = 0;
   if (katzDeliLine.length > 0) {
       for (i = 0; i < katzDeliLine.length; i++) {
         // let number = i + 1;
