@@ -22,11 +22,9 @@ function currentLine(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  let i = 0;
-  let number = i + 1;
   if (katzDeliLine.length > 0) {
-      for (i = 0; i < katzDeliLine.length; i++) {
-        // let number = i + 1;
+      for (let i = 0; i < katzDeliLine.length; i++) {
+        let number = i + 1;
       }
         return "The line is currently: " + number + ". " + katzDeliLine.join(", ") + katzDeliLine[i];
     } else {
