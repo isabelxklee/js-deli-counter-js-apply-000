@@ -25,8 +25,8 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
       for (let i = 0; i < katzDeliLine.length; i++) {
         let number = i + 1;
-        return "The line is currently: " + number + ". " + katzDeliLine.join(", ");
-        }
+      }
+        return "The line is currently: " + number + ". " + katzDeliLine.join(", ") + katzDeliLine[i];
     } else {
       return "The line is currently empty.";
   }
